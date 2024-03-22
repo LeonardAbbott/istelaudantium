@@ -1,0 +1,73 @@
+{
+  "name": "istelaudantium",
+  "version": "1.0.0",
+  "description": "Intuit Node.js client for OAuth2.0 and OpenIDConnect",
+  "main": "./src/OAuthClient.js",
+  "typings": "./src/OAuthClient.d.ts",
+  "author": "AniyahFerry",
+  "license": "MIT",
+  "keywords": [
+    "libero",
+    "modi",
+    "intuit-nodejs",
+    "ea",
+    "openid",
+    "openidConnect",
+    "quickbooks-accounting",
+    "dolores"
+  ],
+  "nyc": {
+    "exclude": [
+      "node_modules",
+      "bin",
+      "coverage",
+      ".nyc_output",
+      "sample",
+      "sample/node_modules"
+    ],
+    "check-coverage": true,
+    "lines": 95,
+    "statements": 95,
+    "functions": 90,
+    "branches": 85,
+    "reporter": [
+      "lcov",
+      "text",
+      "text-summary",
+      "html",
+      "json"
+    ]
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeonardAbbott/istelaudantium.git"
+  },
+  "homepage": "https://github.com/LeonardAbbott/istelaudantium.git",
+  "dependencies": {
+    "atob": "2.1.2",
+    "csrf": "^3.0.4",
+    "jsonwebtoken": "^9.0.0",
+    "popsicle": "10.0.1",
+    "query-string": "^6.12.1",
+    "rsa-pem-from-mod-exp": "^0.8.4",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.1",
+    "btoa": "^1.2.1",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "mocha": "^7.1.2",
+    "nock": "^9.2.3",
+    "nyc": "^15.0.1",
+    "prettier": "^2.0.5",
+    "sinon": "^9.0.2"
+  }
+}
